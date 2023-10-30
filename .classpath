@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/libs/jar/lwjgl.jar" sourcepath="/libs/sources/lwjgl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/libs/doc/lwjgl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="libs/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/libs/jar/lwjgl-glfw.jar" sourcepath="/libs/sources/lwjgl-glfw-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/libs/doc/lwjgl-glfw-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="libs/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/libs/jar/lwjgl-opengl.jar" sourcepath="/libs/sources/lwjgl-opengl-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/libs/doc/lwjgl-opengl-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="libs/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/libs/jar/joml-1.10.5.jar" sourcepath="/libs/sources/joml-1.10.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/libs/doc/joml-1.10.5-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="libs/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/libs/jar/lwjgl-freetype.jar" sourcepath="/libs/sources/lwjgl-freetype-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/libs/doc/lwjgl-freetype-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="libs/native"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
